@@ -14,7 +14,7 @@
 	<name>springrestapp</name>
 	<description>Spring Boot web app microservice</description>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
