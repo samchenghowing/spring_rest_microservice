@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RestController
 public class HelloController {
     @GetMapping("/")
-    public String index(@RequestParam String param) {
+    public String index() {
         return "Hello from spring Boot!";
     }
 
